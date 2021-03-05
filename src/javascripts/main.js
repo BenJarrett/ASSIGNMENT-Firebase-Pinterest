@@ -1,6 +1,7 @@
 // USE WITH FIREBASE AUTH
-// import checkLoginStatus from './helpers/auth';
+import checkLoginStatus from './helpers/auth';
 import 'bootstrap'; // import bootstrap elements and js
+import navagationBar from './components/navagationBar';
 
 import '../styles/main.scss';
 
@@ -9,7 +10,8 @@ const init = () => {
   console.warn('YOU ARE UP AND RUNNING!');
 
   // USE WITH FIREBASE AUTH
-  // checkLoginStatus();
+  navagationBar();
+  checkLoginStatus();
 };
 
 init();
