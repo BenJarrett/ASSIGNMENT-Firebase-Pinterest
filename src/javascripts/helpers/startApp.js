@@ -1,7 +1,7 @@
 import domBuilder from '../components/domBuilder';
 import logoutButton from '../components/logoutButton';
 import navBar from '../components/navagationBar';
-import { emptyBoards, showBoards } from '../components/Showboards';
+import { emptyBoards, showBoards } from '../components/boards';
 import getBoards from './data/boardsData';
 
 const startApp = (user) => {
