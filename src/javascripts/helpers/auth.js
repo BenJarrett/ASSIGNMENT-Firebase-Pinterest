@@ -1,16 +1,17 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+// import domBuilder from '../components/domBuilder';
 import loginButton from '../components/loginButton';
-import logoutButton from '../components/logoutButton';
-// import navagationBar from '../components/navagationBar';
+// import logoutButton from '../components/logoutButton';
 import firebaseConfig from './apiKeys';
+import startApp from './startApp';
 
 const checkLoginStatus = () => {
   firebase.initializeApp(firebaseConfig);
   firebase.auth().onAuthStateChanged((user) => {
     if (user) {
-      logoutButton();
-      document.querySelector('#create-board-nav').innerHTML = '<a class="nav-link" href="#">Create Board <span class="sr-only">(current)</span></a>';
+      // person is logged in do something...
+      startApp(user);
     } else {
       // person is NOT logged in
       loginButton();
