@@ -4,9 +4,9 @@ import firebaseConfig from '../apiKeys';
 // API CALLS FOR PINS //
 const dbUrl = firebaseConfig.databaseURL;
 
-// GET BOARDS //
-const getBoards = (userId) => new Promise((resolve, reject) => {
-  axios.get(`${dbUrl}/boards.json?orderBy="uid"&equalTo="${userId}"`)
+// GET PINS //
+const getPins = (boardsId) => new Promise((resolve, reject) => {
+  axios.get(`${dbUrl}/pins.json?orderBy="boards_id"&equalTo="${boardsId}"`)
     .then((response) => {
       if (response.data) {
         resolve(Object.values(response.data));
@@ -16,4 +16,4 @@ const getBoards = (userId) => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-export default getBoards;
+export default getPins;
