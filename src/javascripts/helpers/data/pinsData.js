@@ -16,4 +16,11 @@ const getPins = (boardsId) => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-export default getPins;
+// DELETE PIN //
+const deletePin = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.delete(`${dbUrl}/pins/${firebaseKey}.json`)
+    .then((response) => console.warn(response.data))
+    .get((error) => reject(error));
+});
+
+export { getPins, deletePin };

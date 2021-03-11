@@ -1,10 +1,13 @@
-// const domEvents = (uid) => {
-//   document.querySelector('body').addEventListener('click', (e) => {
-//     if (e.target.id.includes('author-name-title')) {
-//       const authorId = e.target.id.split('--')[1];
-//       authorBookInfo(authorId).then((authorInfoObject) => {
-//         showBooks(authorInfoObject.books);
-//         authorInfo(authorInfoObject.author);
-//       });
-//     }
-//   }
+const domEvents = () => {
+  document.querySelector('body').addEventListener('click', (e) => {
+    // CLICK EVENT FOR DELETING A BOOK
+    if (e.target.id.includes('delete-pin--')) {
+      if (window.confirm('Want to delete?')) {
+        const firebaseKey = e.target.id.split('--')[1];
+        console.warn(firebaseKey);
+      }
+    }
+  });
+};
+
+export default domEvents;

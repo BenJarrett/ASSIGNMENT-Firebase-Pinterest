@@ -7,7 +7,7 @@ const showBoards = (array) => {
     document.querySelector('#content-container').innerHTML += `<div class="card" style="width: 18rem;">
     <img src="${item.image}" class="card-img-top" alt="${item.title}">
     <div class="card-body">
-    <a href="#"><h5 id="${item.firebaseKey}" class="card-title">${item.title}</h5></a>
+    <a href="#"><h5 id="view-pins--"${item.firebaseKey} class="card-title">${item.title}</h5></a>
     <button class="btn btn-danger" data-toggle="modal" data-target="#formModal" id="edit-board--${item.firebaseKey}">Edit Board</button>
       <button class="btn btn-danger" id="delete-board--${item.firebaseKey}">Delete Board</button>
     </div>

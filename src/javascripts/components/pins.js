@@ -8,6 +8,7 @@ const showPins = (array) => {
     <img src="${item.image}" class="card-img-top" alt="${item.title}">
     <div class="card-body">
     <a href="#"><h5 id="board-title--${item.firebaseKey}" class="card-title">${item.title}</h5></a>
+    <button class="btn btn-danger" id="delete-pin--${item.firebaseKey}">Delete Pin</button>
     </div>
   </div>`;
   });
