@@ -1,7 +1,5 @@
 // USE WITH FIREBASE AUTH
-// import firebase from 'firebase/app';
-// import 'firebase/auth';
-import 'bootstrap'; // import bootstrap elements and js
+import 'bootstrap';
 import '../styles/main.scss';
 import checkLoginStatus from './helpers/auth';
 
