@@ -2,8 +2,9 @@ import domBuilder from '../components/domBuilder';
 import logoutButton from '../components/logoutButton';
 import navBar from '../components/navagationBar';
 import { emptyBoards, showBoards } from '../components/boards';
-import getBoards from './data/boardsData';
+import { getBoards } from './data/boardsData';
 import displayPins from '../Events/boardEvents';
+import domEvents from '../Events/domEvents';
 // import getPins from './data/pinsData';
 // import { showPins, noPins } from '../components/pins';
 
@@ -22,6 +23,7 @@ const startApp = (user) => {
       emptyBoards();
     }
   });
+  domEvents();
   // getPins(user.uid).then((pins) => {
   //   if (pins.length) {
   //     showPins(pins);

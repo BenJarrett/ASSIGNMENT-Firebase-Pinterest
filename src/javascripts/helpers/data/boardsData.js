@@ -1,4 +1,5 @@
 import axios from 'axios';
+// import { get } from 'jquery';
 import firebaseConfig from '../apiKeys';
 
 // API CALLS FOR PINS //
@@ -16,4 +17,12 @@ const getBoards = (userId) => new Promise((resolve, reject) => {
     }).catch((error) => reject(error));
 });
 
-export default getBoards;
+// DELETE BOARD //
+const deleteBoard = (firebaseKey) => new Promise((resolve, reject) => {
+  axios.delete(`${dbUrl}/boards/${firebaseKey}.json`)
+    .then(() => getBoards().then((boardsArray) => resolve(boardsArray)))
+    .catch((error) => reject(error));
+  // REFRESH DOM WILL BOARDS EXCLUDING THE ONE WE DELETED //
+});
+
+export { getBoards, deleteBoard };
