@@ -5,7 +5,8 @@
     "firebaseKey": "-MVONf0UT7Rb4mXwgW53",
     "image": "http://dummyimage.com/229x197.bmp/5fa2dd/ffffff",
     "price": "$23.17",
-    "title": "Port of Flowers"
+    "title": "Port of Flowers",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOO359YKXwNZ5nAn1m": {
     "boards_id": "-MVNJGezoQecYjiei4VT",
@@ -13,7 +14,8 @@
     "firebseKey": "-MVOO359YKXwNZ5nAn1m",
     "image": "http://dummyimage.com/134x179.jpg/dddddd/000000",
     "price": "$5.03",
-    "title": "Getting Back to Abnormal"
+    "title": "Getting Back to Abnormal",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOOSxeoaX2xGf0c1Wn": {
     "boards_id": "-MVNJGezoQecYjiei4VT",
@@ -21,7 +23,8 @@
     "firebaseKey": "-MVOOSxeoaX2xGf0c1Wn",
     "image": "http://dummyimage.com/184x236.jpg/dddddd/000000",
     "price": "$37.03",
-    "title": "Last Temptation of Christ, The"
+    "title": "Last Temptation of Christ, The",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOOv-uCR9Ld-YYq7ia": {
     "boards_id": "-MVNJJFzD6RacgyttqrV",
@@ -29,7 +32,8 @@
     "firebaseKey": "-MVOOv-uCR9Ld-YYq7ia",
     "image": "http://dummyimage.com/188x221.jpg/cc0000/ffffff",
     "price": "$32.27",
-    "title": "Stop! Or My Mom Will Shoot"
+    "title": "Stop! Or My Mom Will Shoot",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOPDGLrwGr35ZvHMfG": {
     "boards_id": "-MVNJJFzD6RacgyttqrV",
@@ -37,7 +41,8 @@
     "firebaseKey": "-MVOPDGLrwGr35ZvHMfG",
     "image": "http://dummyimage.com/135x161.png/5fa2dd/ffffff",
     "price": "$6.58",
-    "title": "Bastards"
+    "title": "Bastards",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOPrqMsAtA6JkGUB0k": {
     "boards_id": "-MVNJNTwc6JQ78VgBmJ2",
@@ -45,7 +50,8 @@
     "firebaseKey": "-MVOPrqMsAtA6JkGUB0k",
     "image": "http://dummyimage.com/135x207.png/cc0000/ffffff",
     "price": "$7.95",
-    "title": "Oil, the Baby and the Transylvanians, The (Pruncul, petrolul si Ardelenii)"
+    "title": "Ben, I'll never know ya!",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOQ4r93YFlgNuGsdgD": {
     "boards_id": "-MVNJNTwc6JQ78VgBmJ2",
@@ -53,7 +59,8 @@
     "firebaseKey": "-MVOQ4r93YFlgNuGsdgD",
     "image": "http://dummyimage.com/142x213.bmp/ff4444/ffffff",
     "price": "$3.48",
-    "title": "Guts (Agallas)"
+    "title": "Guts (Agallas)",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOQRRnmZDhmEudBKs-": {
     "boards_id": "-MVNJR4lNB0NhTgmnH6y",
@@ -61,7 +68,8 @@
     "firebaseKey": "-MVOQRRnmZDhmEudBKs-",
     "image": "http://dummyimage.com/217x111.jpg/5fa2dd/ffffff",
     "price": "$29.19",
-    "title": "Everything I Can See From Here"
+    "title": "Everything I Can See From Here",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOQlcRw0Rac00GkHnF": {
     "boards_id": "-MVNJR4lNB0NhTgmnH6y",
@@ -69,7 +77,8 @@
     "firebaseKey": "-MVOQlcRw0Rac00GkHnF",
     "image": "http://dummyimage.com/203x100.png/cc0000/ffffff",
     "price": "$37.57",
-    "title": "Prêt à tout"
+    "title": "Prêt à tout",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVOT8pzJsS4qpX1gilT": {
     "boards_id": "-MVNJUc_8OH1lYNWbb0P",
@@ -77,6 +86,7 @@
     "firebaseKey": "-MVOT8pzJsS4qpX1gilT",
     "image": "http://dummyimage.com/100x202.bmp/cc0000/ffffff",
     "price": "$14.04",
-    "title": "Thank You, Jeeves!"
+    "title": "Thank You, Jeeves!",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   }
 }

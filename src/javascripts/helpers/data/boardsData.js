@@ -18,9 +18,9 @@ const getBoards = (userId) => new Promise((resolve, reject) => {
 });
 
 // DELETE BOARD //
-const deleteBoard = (firebaseKey) => new Promise((resolve, reject) => {
+const deleteBoard = (firebaseKey, userId) => new Promise((resolve, reject) => {
   axios.delete(`${dbUrl}/boards/${firebaseKey}.json`)
-    .then(() => getBoards().then((boardsArray) => resolve(boardsArray)))
+    .then(() => getBoards(userId).then((boardsArray) => resolve(boardsArray)))
     .catch((error) => reject(error));
   // REFRESH DOM WILL BOARDS EXCLUDING THE ONE WE DELETED //
 });

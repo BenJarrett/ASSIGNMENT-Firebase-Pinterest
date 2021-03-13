@@ -2,26 +2,31 @@
   "-MVNJGezoQecYjiei4VT": {
     "firebaseKey": "-MVNJGezoQecYjiei4VT",
     "image": "http://dummyimage.com/141x178.png/dddddd/000000",
-    "title": "Malta G.C."
+    "title": "Malta G.C.",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVNJJFzD6RacgyttqrV": {
     "firebaseKey": "-MVNJJFzD6RacgyttqrV",
     "image": "http://dummyimage.com/137x224.png/5fa2dd/ffffff",
-    "title": "King of the Zombies"
+    "title": "King of the Zombies",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVNJNTwc6JQ78VgBmJ2": {
     "firebaseKey": "-MVNJNTwc6JQ78VgBmJ2",
     "image": "http://dummyimage.com/212x103.bmp/cc0000/ffffff",
-    "title": "Monday"
+    "title": "Monday",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVNJR4lNB0NhTgmnH6y": {
     "firebaseKey": "-MVNJR4lNB0NhTgmnH6y",
     "image": "http://dummyimage.com/129x182.bmp/dddddd/000000",
-    "title": "Go Tigers!"
+    "title": "Go Tigers!",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   },
   "-MVNJUc_8OH1lYNWbb0P": {
     "firebaseKey": "-MVNJUc_8OH1lYNWbb0P",
     "image": "http://dummyimage.com/212x187.bmp/ff4444/ffffff",
-    "title": "Volcano High (Whasango)"
+    "title": "Volcano High (Whasango)",
+    "uid": "HJFB7dGrKEZyknwq9E6AlTccbNm2"
   }
 }

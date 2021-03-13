@@ -9,6 +9,7 @@ import domEvents from '../Events/domEvents';
 // import { showPins, noPins } from '../components/pins';
 
 const startApp = (user) => {
+  console.warn(user.uid);
   domBuilder(user.uid);
   navBar();
   document.querySelector('#create-board-nav').innerHTML = '<a class="nav-link" href="#">Create Board</a>';
@@ -23,7 +24,7 @@ const startApp = (user) => {
       emptyBoards();
     }
   });
-  domEvents();
+  domEvents(user.uid);
   // getPins(user.uid).then((pins) => {
   //   if (pins.length) {
   //     showPins(pins);
