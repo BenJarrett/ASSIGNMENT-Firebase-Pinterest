@@ -9,6 +9,9 @@ const navBar = () => {
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item active">
+      <a class="nav-link" href="#">Create Board<span class="sr-only">(current)</span></a>
+    </li>
       <div id="create-board-nav"></div>
     </ul>
   </div>
