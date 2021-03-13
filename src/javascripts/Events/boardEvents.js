@@ -1,6 +1,6 @@
 // import showPins from '../components/pins';
 import { showPins } from '../components/pins';
-import getPins from '../helpers/data/pinsData';
+import { getPins } from '../helpers/data/pinsData';
 
 const displayPins = (i) => {
   document.querySelectorAll('.card-title')[i].addEventListener('click', (e) => {
